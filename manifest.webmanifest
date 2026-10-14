@@ -1,1 +1,1 @@
-{"name":"ProfitScan UK","short_name":"ProfitScan","start_url":"./index.html","display":"standalone","background_color":"#0b1220","theme_color":"#101827","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{"name":"ProfitScan UK","short_name":"ProfitScan","start_url":"./index.html?v=9","display":"standalone","background_color":"#0e0e12","theme_color":"#0e0e12","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}

@@ -15,6 +15,8 @@ $('copyTitle').onclick=()=>copySell($('sellTitle').value.trim());
 $('condition').onchange=()=>{const sealed=$('condition').value==='New, sealed';$('photoCount').textContent=sealed?'Aim for 4–6 photos':'Aim for 6–8 photos';$('photoAdvice').textContent=sealed?'Show sealed packaging, all sides, product details and any damaged corners.':'Show front, back, sides, labels, any faults and included accessories.'};
 
 const previousScanTab=$('scanTab').onclick,previousInventoryTab=$('inventoryTab').onclick,previousSellTab=$('sellTab').onclick;
+// Unified navigation: each tab displays one section in this same installed app.
+
 function hideBuy(){ $('buyPage').classList.add('hidden');$('buyTab').className='secondary'}
 $('scanTab').onclick=()=>{hideBuy();previousScanTab()};
 $('inventoryTab').onclick=()=>{hideBuy();previousInventoryTab()};
